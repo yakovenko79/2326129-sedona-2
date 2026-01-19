@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Михаил Яковенко](https://up.htmlacademy.ru/htmlcss-individual/2/user/2326129).
-* Наставник: `Неизвестно`.
+* Наставник: [Андрей Грачев](https://htmlacademy.ru/profile/angra).
 
 ---
 
