@@ -117,7 +117,10 @@
                     <label for="price-to">до</label>
                     <input id="price-to" name="price-to" type="number" min="0" value="9000">
                   </div>
-                    <!-- ползунок фильтрации стоимости будет размечен позже -->
+                  <div class="range-slider">
+                    <input type="range" class="range-slider-thumb-min" min="0" max="10000" value="0" aria-label="Минимальная цена">
+                    <input type="range" class="range-slider-thumb-max" min="0" max="10000" value="9000" aria-label="Максимальная цена">
+                  </div>
                 </fieldset>
                 <button class="button" type="submit">Применить</button>
                 <button class="button button-transparent" type="reset">Сбросить</button>
@@ -126,13 +129,13 @@
             <select class="select-control" aria-label="Сортировка">
               <option value="cheaper">Сначала дешевые</option>
             </select>
-            <a href="#" class="view-button">
+            <a href="catalog.html?view=tile" class="view-button">
               <span class="visually-hidden">Таблица</span>
             </a>
-            <a href="#" class="view-button">
+            <a href="catalog.html?view=card" class="view-button">
               <span class="visually-hidden">Карточки</span>
             </a>
-            <a href="#" class="view-button">
+            <a href="catalog.html?view=list" class="view-button">
               <span class="visually-hidden">Список</span>
             </a>
             <ul class="hotels-list">
