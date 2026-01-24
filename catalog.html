@@ -8,8 +8,8 @@
   <body>
     <header class="main-header">
       <nav class="navigation">
-        <a href="index.html" class="navigation-logo">
-          <img src="#" class="main-header-logo" alt="City Sedona logotype">
+        <a class="navigation-logo" href="index.html">
+          <img class="main-header-logo" src="#" alt="City Sedona logotype">
         </a>
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -46,7 +46,7 @@
             <h1 class="inner-header-title">Гостиницы Седоны</h1>
             <ul class="breadcrumbs-list">
                 <li class="breadcrumbs-item">
-                    <a href="index.html" class="breadcrumbs-link">
+                    <a class="breadcrumbs-link" href="index.html">
                         <span class="visually-hidden">Главная</span>
                     </a>
                 </li>
@@ -63,15 +63,15 @@
                     <ul class="catalog-filter-list">
                         <li class="catalog-filter-item">
                             <label class="control">
-                                <input type="checkbox" class="control-input" name="swimming-pool" checked>Бассейн</label>
+                                <input class="control-input" type="checkbox" name="swimming-pool" checked>Бассейн</label>
                         </li>
                         <li class="catalog-filter-item">
                             <label class="control">
-                                <input type="checkbox" class="control-input" name="parking"  checked>Парковка</label>
+                                <input class="control-input" type="checkbox" name="parking"  checked>Парковка</label>
                         </li>
                         <li class="catalog-filter-item">
                             <label class="control">
-                                <input type="checkbox" class="control-input" name="wifi">Wi-Fi</label>
+                                <input class="control-input" type="checkbox" name="wifi">Wi-Fi</label>
                         </li>
                     </ul>
                 </fieldset>
@@ -80,15 +80,15 @@
                     <ul class="catalog-filter-list">
                         <li class="catalog-filter-item">
                             <label class="control">
-                                <input type="radio" class="control-input" name="hotel" checked>Гостиница</label>
+                                <input class="control-input" type="radio" name="hotel" checked>Гостиница</label>
                         </li>
                         <li class="catalog-filter-item">
                             <label class="control">
-                                <input type="radio" class="control-input" name="motel">Мотель</label>
+                                <input class="control-input" type="radio" name="motel">Мотель</label>
                         </li>
                         <li class="catalog-filter-item">
                             <label class="control">
-                                <input type="radio" class="control-input" name="appartments">Аппартаменты</label>
+                                <input class="control-input" type="radio" name="appartments">Аппартаменты</label>
                         </li>
                     </ul>
                 </fieldset>
@@ -103,8 +103,8 @@
                     <input id="price-to" name="price-to" type="number" min="0" value="9000">
                   </div>
                   <div class="range-slider">
-                    <input type="range" class="range-slider-thumb-min" min="0" max="10000" value="0" aria-label="Минимальная цена">
-                    <input type="range" class="range-slider-thumb-max" min="0" max="10000" value="9000" aria-label="Максимальная цена">
+                    <input class="range-slider-thumb-min" type="range" min="0" max="10000" value="0" aria-label="Минимальная цена">
+                    <input class="range-slider-thumb-max" type="range" min="0" max="10000" value="9000" aria-label="Максимальная цена">
                   </div>
                 </fieldset>
                 <button class="button" type="submit">Применить</button>
@@ -114,18 +114,18 @@
             <select class="select-control" aria-label="Сортировка">
               <option value="cheaper">Сначала дешевые</option>
             </select>
-            <a href="catalog.html?view=tile" class="view-button view-button-current">
+            <a class="view-button view-button-current" href="catalog.html?view=tile">
               <span class="visually-hidden">Таблица</span>
             </a>
-            <a href="catalog.html?view=card" class="view-button">
+            <a class="view-button" href="catalog.html?view=card">
               <span class="visually-hidden">Карточки</span>
             </a>
-            <a href="catalog.html?view=list" class="view-button">
+            <a class="view-button" href="catalog.html?view=list">
               <span class="visually-hidden">Список</span>
             </a>
             <ul class="hotels-list">
               <li class="hotel-item">
-                <a href="#" class="hotel-item-link">
+                <a class="hotel-item-link" href="#">
                   <img src="#" alt="Фото отеля">
                   <h3 class="hotel-title">Amara Resort & Spa</h3>
                 </a>
@@ -141,7 +141,7 @@
                 </div>
               </li>
               <li class="hotel-item">
-                <a href="#" class="hotel-item-link">
+                <a class="hotel-item-link" href="#">
                   <img src="#" alt="Фото отеля">
                   <h3 class="hotel-title">Villas at Poco Diablo</h3>
                 </a>
@@ -157,7 +157,7 @@
                 </div>
               </li>
               <li class="hotel-item">
-                <a href="#" class="hotel-item-link">
+                <a class="hotel-item-link" href="#">
                   <img src="#" alt="Фото отеля">
                   <h3 class="hotel-title">Desert Quail Inn</h3>
                 </a>
@@ -173,7 +173,7 @@
                 </div>
               </li>
               <li class="hotel-item">
-                <a href="#" class="hotel-item-link">
+                <a class="hotel-item-link" href="#">
                   <img src="#" alt="Фото отеля">
                   <h3 class="hotel-title">GreenTree Inn</h3>
                 </a>
@@ -214,7 +214,7 @@
         <h2 class="visually-hidden">Подписка на рассылку</h2>
         <p class="slogan-title white-title">Подпишитесь на рассылку</p>
         <p class="slogan-text white-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
-        <input type="email"  name="distribution" class="distribution-input" placeholder="Ваш e-mail">
+        <input class="distribution-input" type="email"  name="distribution" placeholder="Ваш e-mail">
         <button class="distribute-button">Подписаться</button>
       </section>
     </main>
