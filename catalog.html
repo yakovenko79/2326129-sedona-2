@@ -9,7 +9,7 @@
   <body>
     <header class="main-header" data-test="header">
       <nav class="navigation">
-        <a class="navigation-logo" href="index.html">
+        <a class="navigation-logo" href="index.html" aria-current="page">
           <img class="main-header-logo" src="#" alt="City Sedona logotype">
         </a>
         <ul class="navigation-list">
@@ -47,7 +47,7 @@
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
         <ul class="breadcrumbs-list">
           <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link" href="index.html">
+            <a class="breadcrumbs-link" href="index.html" aria-current="page">
               <span class="visually-hidden">Главная</span>
             </a>
           </li>
@@ -128,7 +128,7 @@
         </a>
         <ul class="hotels-list">
           <li class="hotel-item">
-            <a class="hotel-item-link" href="#">
+            <a class="hotel-item-link" href="#" tabindex="-1">
               <img src="#" alt="Фото отеля">
               <h3 class="hotel-title">Amara Resort & Spa</h3>
             </a>
@@ -136,15 +136,15 @@
             <span class="from-price">От 4000 ₽</span>
             <a class="more-details-button" href="#">Подробнее</a>
             <button class="button to-favorite-button">В Избранное</button>
-            <span class="star-rating">
+            <p class="star-rating four-stars-rating">
               <span class="visually-hidden">Рейтинг гостиницы четыре звезды</span>
-            </span>
+            </p>
             <div class="numeric-rating">
               <span class="numeric-rating-text">Рейтинг: 8,5</span>
             </div>
           </li>
           <li class="hotel-item">
-            <a class="hotel-item-link" href="#">
+            <a class="hotel-item-link" href="#" tabindex="-1">
               <img src="#" alt="Фото отеля">
               <h3 class="hotel-title">Villas at Poco Diablo</h3>
             </a>
@@ -152,15 +152,15 @@
             <span class="from-price">От 5000 ₽</span>
             <a class="more-details-button" href="#">Подробнее</a>
             <button class="button in-favorite-button">В Избранном</button>
-            <span class="star-rating">
+            <p class="star-rating four-stars-rating">
               <span class="visually-hidden">Рейтинг гостиницы четыре звезды</span>
-            </span>
+            </p>
             <div class="numeric-rating">
               <span class="numeric-rating-text">Рейтинг: 9,2</span>
             </div>
           </li>
           <li class="hotel-item">
-            <a class="hotel-item-link" href="#">
+            <a class="hotel-item-link" href="#" tabindex="-1">
               <img src="#" alt="Фото отеля">
               <h3 class="hotel-title">Desert Quail Inn</h3>
             </a>
@@ -168,15 +168,15 @@
             <span class="from-price">От 2500 ₽</span>
             <a class="more-details-button" href="#">Подробнее</a>
             <button class="button to-favorite-button">В Избранное</button>
-            <span class="star-rating">
+            <p class="star-rating three-stars-rating">
               <span class="visually-hidden">Рейтинг гостиницы три звезды</span>
-            </span>
+            </p>
             <div class="numeric-rating">
               <span class="numeric-rating-text">Рейтинг: 6,9</span>
             </div>
           </li>
           <li class="hotel-item">
-            <a class="hotel-item-link" href="#">
+            <a class="hotel-item-link" href="#" tabindex="-1">
               <img src="#" alt="Фото отеля">
               <h3 class="hotel-title">GreenTree Inn</h3>
             </a>
@@ -184,9 +184,9 @@
             <span class="from-price">От 1500 ₽</span>
             <a class="more-details-button" href="#">Подробнее</a>
             <button class="button to-favorite-button">В Избранное</button>
-            <span class="star-rating">
+            <p class="star-rating two-stars-rating">
               <span class="visually-hidden">Рейтинг гостиницы две звезды</span>
-            </span>
+            </p>
             <div class="numeric-rating">
               <span class="numeric-rating-text">Рейтинг: 5,0</span>
             </div>
@@ -205,8 +205,8 @@
           <li class="pagination-item">
             <a class="pagination-item-link">4</a>
           </li>
-          <li class="pagination-item pagination-items">
-            <a class="pagination-item-link">...</a>
+          <li class="pagination-item">
+            <span class="pagination-more">...</span>
           </li>
           <li class="pagination-item">
             <a class="pagination-item-link">10</a>
