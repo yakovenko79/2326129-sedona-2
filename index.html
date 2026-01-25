@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
+
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
   </head>
+
   <body>
-    <header class="main-header">
+    <header class="main-header" data-test="header">
       <nav class="navigation">
         <a class="navigation-logo" href="index.html">
           <img class="main-header-logo" src="#" alt="City Sedona logotype">
@@ -39,15 +41,16 @@
         </ul>
       </nav>
     </header>
+
     <main class="main-index">
       <h1 class="visually-hidden">Город Седона</h1>
-      <section class="welcome">
+      <section class="welcome" data-test="hero">
         <h2 class="visually-hidden">Добро пожаловать в Седону</h2>
         <img class="welcome-image" src="#" alt="Добро пожаловать в Седону">
         <p class="slogan-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
         <p class="slogan-text">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
       </section>
-      <section class="advantages">
+      <section class="advantages" data-test="advantages">
         <h2 class="visually-hidden">Преимущества отдыха в Седоне</h2>
         <ul class="advantages-list">
           <li class="advantage-item blue-card">
@@ -101,21 +104,23 @@
           </li>
         </ul>
       </section>
-      <section class="search-hotel">
+      <section class="search-hotel" data-test="search">
         <h2 class="visually-hidden">Поиск гостиницы</h2>
         <p class="slogan-title">Заинтересовались ?</p>
-        <p class="slogan-text">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <button class="modal-open-btn" data-modal="#" aria-label="Открывает форму поиска гостиницы">Поиск гостиницы в Седоне</button>
+        <p class="slogan-text">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в
+          Седоне</p>
+        <button class="modal-open-btn" data-modal="#" aria-label="Открывает форму поиска гостиницы">Поиск гостиницы в
+          Седоне</button>
       </section>
-      <section class="subscribe">
+      <section class="subscribe" data-test="subscribe">
         <h2 class="visually-hidden">Подписка на рассылку</h2>
         <p class="slogan-title white-title">Подпишитесь на рассылку</p>
         <p class="slogan-text white-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
-        <input class="distribution-input" type="email"  name="distribution" placeholder="Ваш e-mail">
+        <input class="distribution-input" type="email" name="distribution" placeholder="Ваш e-mail">
         <button class="distribute-button">Подписаться</button>
       </section>
     </main>
-    <footer class="main-footer">
+    <footer class="main-footer" data-test="footer">
       <h2 class="visually-hidden">Подвал сайта</h2>
       <section class="footer-social">
         <h3 class="visually-hidden">Социальные сети</h3>
@@ -143,4 +148,5 @@
       </a>
     </footer>
   </body>
+
 </html>
