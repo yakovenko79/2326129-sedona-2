@@ -3,6 +3,7 @@
 
   <head>
     <meta charset="utf-8">
+    <link href="styles/styles.css" rel="stylesheet">
     <title>HTML Academy: Седона</title>
   </head>
 
@@ -55,29 +56,24 @@
         <ul class="advantages-list">
           <li class="advantage-item blue-card">
             <h3 class="advantage-title">Настоящий<br> городок</h3>
-            <hr>
             <p class="advantage-description">Седона — не аттракцион для<br> туристов, там течёт своя<br> жизнь</p>
             <img class="image-town" src="#" alt="городок Седона">
           </li>
           <li class="advantage-item white-card">
             <h3 class="advantage-title">Небольшая<br> площадь</h3>
-            <hr>
             <p class="advantage-description">Все достопримечательности<br> находятся очень близко</p>
           </li>
           <li class="advantage-item gray-card">
             <h3 class="advantage-title">Красивая<br> дорога</h3>
-            <hr>
             <p class="advantage-description white-card">Ехать в Седону из Лас-Вегаса<br> совсем не скучно!</p>
           </li>
           <li class="advantage-item white-card">
             <h3 class="advantage-title">Мало<br> туристов</h3>
-            <hr>
             <p class="advantage-description">Большинство едет в Гранд<br> Каньон и толпится там</p>
           </li>
           <li class="advantage-item blue-card">
             <img class="devil-bridge" src="#" alt="Мост дьявола">
             <h3 class="advantage-title">Там есть<br> мост дьявола</h3>
-            <hr>
             <p class="advantage-description">Да, по нему можно пройти!<br> Если вы осмелитесь,<br> разумеется</p>
           </li>
         </ul>
@@ -88,17 +84,14 @@
         <p class="slogan-text">Опытный персонал и качественное обслуживание!</p>
         <ul class="advantage-list">
           <li class="advantage-item gray-card">
-            <img class="decorative-icon" src="#" alt="">
             <h3 class="advantage-title">Жильё</h3>
             <p class="advantage-text">Рекомендуем пожить<br> в настоящем мотеле,<br> всё как в кино!</p>
           </li>
           <li class="advantage-item white-card">
-            <img class="decorative-icon" src="#" alt="">
             <h3 class="advantage-title">Еда</h3>
             <p class="advantage-text">Всегда заказывайте<br> топовый фирменный бургер,<br> вы не разочаруетесь!</p>
           </li>
           <li class="advantage-item gray-card">
-            <img class="decorative-icon" src="#" alt="">
             <h3 class="advantage-title">Сувениры</h3>
             <p class="advantage-text">Не только китайского,<br> но и настоящего местного<br> производства!</p>
           </li>
@@ -109,15 +102,18 @@
         <p class="slogan-title">Заинтересовались ?</p>
         <p class="slogan-text">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в
           Седоне</p>
-        <button class="modal-open-btn" data-modal="#" aria-label="Открывает форму поиска гостиницы">Поиск гостиницы в
+        <button class="modal-open-btn" type="button" data-modal="#" aria-label="Открывает форму поиска гостиницы">Поиск
+          гостиницы в
           Седоне</button>
       </section>
       <section class="subscribe" data-test="subscribe">
         <h2 class="visually-hidden">Подписка на рассылку</h2>
         <p class="slogan-title white-title">Подпишитесь на рассылку</p>
         <p class="slogan-text white-text">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
-        <input class="distribution-input" type="email" name="distribution" placeholder="Ваш e-mail">
-        <button class="distribute-button">Подписаться</button>
+        <form class="subscribe-form" action="https://echo.htmlacademy.ru" method="post">
+          <input class="distribution-input" type="email" name="distribution" placeholder="Ваш e-mail" required>
+          <button class="distribute-button" type="submit">Подписаться</button>
+        </form>
       </section>
     </main>
     <footer class="main-footer" data-test="footer">
